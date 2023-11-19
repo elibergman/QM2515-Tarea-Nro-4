@@ -1,6 +1,6 @@
 # QM2515-Tarea-Nro-4
 Programas de la materia de Introducción a la Quimiometría. Tarea Nro. 4
-# Problema #1: Método gráfico para determinar el coeficiente de resistencia
+# Problema #1: Método gráfico para determinar el coeficiente de resistencia.
 
 Este código calcula y grafica la relación entre la velocidad de un paracaidista y el coeficiente de resistencia aerodinámica, combinando cálculos numéricos y visualización gráfica. Utiliza numpy para operaciones matemáticas, scipy.optimize para resolver ecuaciones y matplotlib.pyplot para crear gráficos.
 
@@ -8,7 +8,7 @@ Comenzamos definiendo parámetros clave: la masa del paracaidista (m), la graved
 
 Luego, el código genera un rango de posibles valores de c y calcula la velocidad correspondiente para cada uno. Estos cálculos se visualizan en un gráfico creado con matplotlib.pyplot, donde se traza la relación entre el coeficiente de resistencia y la velocidad. Se incluyen líneas para destacar la velocidad deseada y el coeficiente de resistencia calculado.
 
-# Problema #2: Regla de Cramer
+# Problema #2: Regla de Cramer.
 
 Este código en Python resuelve un sistema de ecuaciones lineales utilizando la biblioteca NumPy. En primer lugar, se importa NumPy como 'np'. Luego, se definen los coeficientes de la matriz de coeficientes 'A' y los términos independientes 'B' del sistema de ecuaciones.
 
@@ -16,7 +16,7 @@ A continuación, se calcula el determinante de la matriz 'A' utilizando la funci
 
 Si el determinante no es cero, se procede a calcular los determinantes para cada variable 'x1', 'x2' y 'x3' mediante la creación de matrices que reemplazan las columnas correspondientes de 'A' con el vector 'B'. Luego, se calculan las soluciones 'x1', 'x2' y 'x3' dividiendo estos determinantes por el determinante de 'A'.
 
-# Problema #3: Regla del Trapecio
+# Problema #3: Regla del Trapecio.
 
 Este código utiliza la regla del trapecio para calcular una aproximación de la integral de una función, basándose en datos tabulados. El proceso comienza con dos listas de datos: `x_valores`, que son los puntos en el eje x, y `Fx_valores`, que representan los valores de la función en esos puntos.
 
